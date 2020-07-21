@@ -5,6 +5,7 @@
     "removeComments": false,
     "preserveConstEnums": true,
     "noLib": false,
+    "lib": ["es2015", "es6", "dom"],
     "inlineSourceMap": true,
     "inlineSources": true,
     "outDir": "dist",
@@ -17,7 +18,8 @@
     "declarationDir": "@types",
     "typeRoots": [
       "node_modules/@types"
-    ]
+    ],
+    "allowSyntheticDefaultImports": true
   },
   "exclude": [
     "node_modules",

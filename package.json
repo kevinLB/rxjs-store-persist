@@ -30,11 +30,11 @@
     "@ngrx/store": "^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0"
   },
   "dependencies": {
-    "deepmerge": "^4.0.0",
-    "localforage": "^1.7.3"
+    "deepmerge": "^4.2.2",
+    "localforage": "^1.8.0"
   },
   "devDependencies": {
-    "prettier": "1.18.2",
-    "typescript": "3.5.3"
+    "prettier": "^2.0.5",
+    "typescript": "^3.9.7"
   }
 }

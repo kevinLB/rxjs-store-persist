@@ -1,4 +1,4 @@
-import localForage from "localforage";
+import * as localForage from "localforage";
 import {middlewareStorage} from "./middleware-storage";
 import {config, StorageConfig} from "./options";
 import {storageSync} from "./storage-sync";
